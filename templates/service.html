@@ -1,9 +1,50 @@
 {% extends 'layout.html' %}
 
 {% block body %}
-    <h1>{{ app_data['description'] }}</h1>
-    <h2>Services page</h2>
-    <p class="lead">Use this document as a way to quickly start any new project.
-        <br> All you get is this text and a mostly barebones HTML document.</p>
-    <div> Now updated to Bootstrap (Version 4.4.1)</div>
+<css>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 5px;
+  background-color: #FFFFFF;
+  padding: 10px;
+}
+.grid-item {
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+<h1>Minimal Market Items</h1>
+
+<div class="grid-container">
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 1</p></div>
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 2</p></div>
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 3</p></div>  
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 4</p></div>
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 5</p></div>
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 6</p></div>  
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 7</p></div>
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 8</p></div>
+  <div class="grid-item">
+    <img src="\static\mug1.png" alt="my image" style="float:center;margin:0px 0px"><p>Mug 9</p></div>
+    </div>
+    </body>
+</css>
+
+
+
 {% endblock %}
